@@ -13,3 +13,394 @@ i {
 #contact {
   padding-top: 4rem;
 }
+
+.product-box1 {
+  position: relative;
+  background-color: #20c997;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.product-box1::before {
+  content: 'P0PCORN';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box1:hover::before {
+  opacity: 0.4;
+}
+.product-box1::after {
+  content: '7.000 IDR';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 380px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box1:hover::after {
+  opacity: 0.4;
+}
+.chatbutton {
+  position: absolute;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 75px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-box1:hover .chatbutton {
+  opacity: 1;
+  bottom: 3px;
+}
+.gambarmenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+.menu-img {
+  max-width: 200px;
+}
+.product-box1:hover .gambarmenu {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.2);
+}
+.product-box2 {
+  position: relative;
+  background-color: #20c997;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.product-box2::before {
+  content: 'BURGER';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box2:hover::before {
+  opacity: 0.4;
+}
+.product-box2::after {
+  content: '10.000 IDR';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 380px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box2:hover::after {
+  opacity: 0.4;
+}
+.chatbutton {
+  position: absolute;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 75px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-box2:hover .chatbutton {
+  opacity: 1;
+  bottom: 3px;
+}
+.gambarmenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+.menu-img {
+  max-width: 200px;
+}
+.product-box2:hover .gambarmenu {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.2);
+}
+.product-box3 {
+  position: relative;
+  background-color: #20c997;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.product-box3::before {
+  content: 'French Fries';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box3:hover::before {
+  opacity: 0.4;
+}
+.product-box3::after {
+  content: '8.000 IDR';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 380px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box3:hover::after {
+  opacity: 0.4;
+}
+.chatbutton {
+  position: absolute;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 75px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-box3:hover .chatbutton {
+  opacity: 1;
+  bottom: 3px;
+}
+.gambarmenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+.menu-img {
+  max-width: 75px;
+}
+.product-box3:hover .gambarmenu {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.2);
+}
+.product-box4 {
+  position: relative;
+  background-color: #20c997;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.product-box4::before {
+  content: 'SODA';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box4:hover::before {
+  opacity: 0.4;
+}
+.product-box4::after {
+  content: '5.000 IDR';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 380px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box4:hover::after {
+  opacity: 0.4;
+}
+.chatbutton {
+  position: absolute;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 75px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-box4:hover .chatbutton {
+  opacity: 1;
+  bottom: 3px;
+}
+.gambarmenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+.menu-img {
+  max-width: 200px;
+}
+.product-box4:hover .gambarmenu {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.2);
+}
+.product-box5 {
+  position: relative;
+  background-color: #20c997;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.product-box5::before {
+  content: 'JUICE';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box5:hover::before {
+  opacity: 0.4;
+}
+.product-box5::after {
+  content: '5.000 IDR';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 380px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box5:hover::after {
+  opacity: 0.4;
+}
+.chatbutton {
+  position: absolute;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 75px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-box5:hover .chatbutton {
+  opacity: 1;
+  bottom: 3px;
+}
+.gambarmenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+.menu-img {
+  max-width: 200px;
+}
+.product-box5:hover .gambarmenu {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.2);
+}
+.product-box6 {
+  position: relative;
+  background-color: #20c997;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+.product-box6::before {
+  content: 'MILK';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 10px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box6:hover::before {
+  opacity: 0.4;
+}
+.product-box6::after {
+  content: '5.000 IDR';
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 380px;
+  left: 50px;
+  transform: translate(-50px, 0);
+  opacity: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+.product-box6:hover::after {
+  opacity: 0.4;
+}
+.chatbutton {
+  position: absolute;
+  bottom: 0;
+  transform: translate3d(-50%, 0, 75px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.product-box6:hover .chatbutton {
+  opacity: 1;
+  bottom: 3px;
+}
+.gambarmenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  transition: 0.5s;
+}
+.menu-img {
+  max-width: 200px;
+}
+.product-box6:hover .gambarmenu {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.2);
+}
